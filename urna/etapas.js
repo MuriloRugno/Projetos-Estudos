@@ -4,11 +4,11 @@ let etapas = [
         numero: 5,
         candidatos: [
             {
-                numero: '3811',
-                nome: 'Pedrinho Ladeira',
+                numero: '38111',
+                nome: 'Marcela Martelo',
                 partido: 'ADC',
                 fotos: [
-                    {url:'cand1.jpg', legenda: 'Vereador'}
+                    {url:'cand1.jpg', legenda: 'Vereadora'}
                 ]
             },
             {
@@ -23,7 +23,7 @@ let etapas = [
         ]
     },
     {
-        titulo: 'PREFEITO',
+        titulo: 'PREFEITO(a)',
         numero: 2,
         candidatos: [
             {
