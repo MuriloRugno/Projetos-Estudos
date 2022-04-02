@@ -11,10 +11,20 @@
     <header>
         <div class="header"></div>
         <div class="slider">
-            <div class="slider--width" style="width: calc(100vw * 3)">
-                <div class="slider--item" style="background-image: url('img/img1.jpg');"></div>
-                <div class="slider--item" style="background-image: url('img/img2.jpg');"></div>
-                <div class="slider--item" style="background-image: url('img/img3.jpg');"></div>
+            <div class="slider--controls">
+                <img src="img/prev.png" alt="icone de voltar" class="slider--control btn-img" onclick="goPrev()">
+                <img src="img/next.png" alt="icone de próximo"class="slider--control btn-img" onclick="goNext()">
+            </div>
+            <div class="slider--width">
+                <div class="slider--item" style="background-image: url('img/img1.jpg');">
+                    Visite
+                </div>
+                <div class="slider--item" style="background-image: url('img/img2.jpg');">
+                    Biomas
+                </div>
+                <div class="slider--item" style="background-image: url('img/img3.jpg');">
+                    Diferentes
+                </div>
             </div>
         </div>
     </header>
